@@ -1,0 +1,13 @@
+import React from 'react';
+
+const MyComponent = () => {
+  const greeting = 'Hello, React!';
+  
+  return (
+    <div>
+      <h1>{greeting}</h1>
+    </div>
+  );
+}
+
+export default MyComponent;
